@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #87CEEB; /* Skyblue */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #4f18db;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #FFA500; /* Light orange */
+  }
+  
+  .navbar .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links{
+  color: #31b908;
+  }

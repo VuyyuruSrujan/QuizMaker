@@ -1,0 +1,40 @@
+.quiz-card {
+    background-color: #FFF4E0; /* Light orange */
+    border: 1px solid #87CEEB; /* Skyblue */
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .quiz-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .quiz-card h3 {
+    color: #87CEEB; /* Skyblue */
+    margin-bottom: 0.5rem;
+  }
+  
+  .quiz-card p {
+    color: #333333;
+    margin: 0.5rem 0;
+  }
+  
+  .quiz-card button {
+    background-color: #87CEEB; /* Skyblue */
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quiz-card button:hover {
+    background-color: #FFA500; /* Light orange */
+  }
+  

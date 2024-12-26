@@ -1,0 +1,22 @@
+.footer {
+    background-color: #87CEEB; /* Skyblue */
+    color: #ec0707;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  
+  .footer a {
+    color: #FFA500; /* Light orange */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #ffffff;
+  }
+  
